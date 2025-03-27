@@ -13,7 +13,7 @@ def trapezoidal_rule(a, b, n):
     return integral, x, y
 
 # Parámetros de integración
-a, b = 0, 180  # Intervalo de integración
+a, b = 0, np.pi  # Intervalo de integración
 n = 100  # Número de subdivisiones
 
 # Cálculo de la integral
